@@ -1,0 +1,107 @@
+@-moz-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@-ms-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@-o-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@-webkit-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@viewport {
+  width: device-width;
+  scale: 1;
+}
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  cursor: crosshair;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.icon {
+  display: block;
+  padding: .5em;
+  text-decoration: none;
+  color: #454545;
+  border-bottom: 1px dotted #454545;
+}
+
+.module {
+  border: 2px solid #454545;
+  width: 2em;
+  text-align: center;
+  margin-left: .5em;
+  max-width: 10em;
+  position: relative;
+  margin-top: 1em;
+  border-top: 10px solid #454545;
+}
+
+.app {
+  border: 3px solid #454545;
+  max-width: 50em;
+  border-radius: 10px;
+  /*background-image: url(../images/drawing.jpg);*/
+  background-repeat: no-repeat;
+  height: 40em;
+  position: relative;
+  text-align: center;
+}
+
+.drawing {
+  position: absolute;
+  right: 4%;
+  z-index: -1;
+  width: 100%;
+  top: 15%;
+}
+
+.heading {
+  background-color: #454545;
+  margin: 0;
+  padding: .3em;
+  border-radius: 7px 7px 0px 0px;
+  color: white;
+}
+
+.instruction {
+  font-size: 60%;
+}
+
+.brush {
+  cursor: url(../images/paintbrush-head.svg), auto;
+}
+
+.pencil {
+  cursor: url(../images/pencil-head.svg), auto;
+}
+
+.eraser {
+  cursor: url(../images/eraser.svg), auto;
+}
+
+.line {
+  cursor: url(../images/line.svg), auto;
+}
