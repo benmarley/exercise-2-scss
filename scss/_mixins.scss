@@ -1,0 +1,7 @@
+@mixin vectorbutton ($color){
+	display: block;
+	padding: 1em;
+	text-decoration:none;
+	color: $color;
+	
+}

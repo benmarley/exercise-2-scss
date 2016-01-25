@@ -48,9 +48,26 @@ body {
   border-bottom: 1px dotted #454545;
 }
 
+.vec-button {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  color: blue;
+}
+
 .module {
   border: 2px solid #454545;
   width: 2em;
+  text-align: center;
+  margin-left: .5em;
+  max-width: 10em;
+  position: relative;
+  margin-top: 1em;
+  border-top: 10px solid #454545;
+}
+
+.module-2 {
+  border: 2px solid #454545;
   text-align: center;
   margin-left: .5em;
   max-width: 10em;

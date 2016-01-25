@@ -32,9 +32,24 @@ body {
 	border-bottom: 1px dotted $majoritygrey;
 }
 
+.vec-button {
+	@include vectorbutton ($blue);
+}
+
 .module {
 	border: 2px solid $majoritygrey;
 	width: 2em;
+	text-align: center;
+	margin-left: .5em;
+	max-width: 10em;
+	position: relative;
+
+	margin-top: 1em;
+	border-top: 10px solid $majoritygrey;
+}
+
+.module-2 {
+	border: 2px solid $majoritygrey;
 	text-align: center;
 	margin-left: .5em;
 	max-width: 10em;
