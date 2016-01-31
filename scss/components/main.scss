@@ -15,7 +15,7 @@ html {
 }
 
 body {
-	cursor: crosshair
+	cursor: crosshair;
 }
 
 *, *:before, *:after {
@@ -39,17 +39,8 @@ body {
 }
 
 .module {
-	border: 2px solid $majoritygrey;
-	width: 3em;
-	text-align: center;
-	margin-left: .5em;
-	max-width: 10em;
-	position: relative;
-
-	margin-top: 1em;
-	border-top: 10px solid $majoritygrey;
+	@include module-one ($majoritygrey);
 }
-
 
 .app {
 	border: 3px solid $majoritygrey;
@@ -74,7 +65,7 @@ body {
 	margin: 0;
 	padding: .3em;
 	border-radius: 7px 7px 0px 0px;
-	color: white;
+	color: $white;
 }
 
 .instruction {
